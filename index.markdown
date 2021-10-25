@@ -46,38 +46,39 @@ layout: homepage
         <div style="height: 50px;">
         </div>
         <div class="" style="text-align: center;">
-            <h2>Industrial Software Stack</h2>
-            <p>The open source software stack to control robots and build new industrial automation applicaitons.</p>
+            <h2>ROS-Industrial Software Stack</h2>
+            <p>The software stack provides drivers and tools for manufacturing specific robotics problems.</p>
         </div>
         <div class="row homepage-text g-4">
-            <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: left;">
+            <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: center;">
                 <h3>Drivers</h3>
                 <p>Robots, Actuators and Sensors</p>
             </div>
-            <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: left;">
-                <h3>Motion Planning</h3>
+            <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: center;">
+                <h3>Motion Tools</h3>
                 <p>Moveit, Tesseract, Descartes</p>
             </div>
-            <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: left;">
-                <h3>Advanced Automation Tools</h3>
+            <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: center;">
+                <h3>Automation Tools</h3>
                 <p>Scan & Plan, Pick & Place</p>
             </div>
-            <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: left;">
-                <h3>Software Quality Tools</h3>
+            <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: center;">
+                <h3>Quality Tools</h3>
                 <p>Continuous Integration, Model-driven Software Engineering</p>
             </div>
         </div>
     </div>
 
     <div class="homepage">
+        <div class="" style="text-align: center;">
+            <h2>Services for Members</h2>
+            <p>The ROS-Industrial Consortium offers a wide range of services to its members in order to support
+            the uptake of ROS in manufacturing.</p>
+            <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
+        </div>
         <div class="row homepage-services">
-            <div class="col-sm-12 col-lg-4" style="text-align: right;">
-                <h2>Services for Members</h2>
-                <p>The ROS-Industrial Consortium offers a wide range of services to its members in order to support
-                the uptake of ROS in manufacturing.</p>
-                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
-            </div>
-            <div class="col-sm-12 col-lg-8">
+
+            <div class="col-sm-12 col-lg-12">
                 <div class="row justify-content-center">
                     <div class="col-sm-12">
                         <div class="row align-items-start justify-content-center">
