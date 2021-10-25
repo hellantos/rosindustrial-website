@@ -125,7 +125,7 @@ layout: homepage
                             {{ event.start_date | date: "%B %d, %Y" }} - {{ event.end_date | date: "%B %d, %Y" }}<br/>
                             {{event.location}}
                             </p>
-                            <a class="button" href="/install">Register</a>
+                            <a class="button" href="/rosindustrial-website/install">Register</a>
                         </div>
                         </div>
                     </div>

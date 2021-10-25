@@ -23,7 +23,7 @@ title: Events
           {{event.location}}
         </p>
         <p class="event-description">{{ event.description }}</p>
-        <a class="button" href="/install">Register</a>
+        <a class="button" href="/rosindustrial-website/install">Register</a>
       </div>
     </div>
   </div>
