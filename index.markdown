@@ -42,6 +42,10 @@ layout: homepage
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IxTJ473MY3Y?controls=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
+        </div>
+        <div style="height: 50px;">
+        </div>
+        <div class="row homepage-text g-4">
             <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: left;">
                 <h3>Drivers</h3>
                 <p>Robots, Actuators and Sensors</p>
