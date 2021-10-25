@@ -26,7 +26,7 @@ title: Blog
         </div>
         {%- else -%} 
         <div class="blog-image-wrapper">
-        <img src="/assets/ric_logo.png" alt="image"/>
+        <img src="/rosindustrial-website/assets/ric_logo.png" alt="image"/>
         </div>
         {% endif %}  
       </div>
@@ -66,7 +66,7 @@ title: Blog
       </div>
     {%- else -%} 
       <div class="blog-image-wrapper">
-      <img style="padding: 5px;" src="/assets/ric_logo.png" alt="image"/>
+      <img style="padding: 5px;" src="/rosindustrial-website/assets/ric_logo.png" alt="image"/>
       </div>
     {% endif %}  
       <a href="{{ post.url }}">

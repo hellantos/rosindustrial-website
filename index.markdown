@@ -147,12 +147,12 @@ layout: homepage
         </div>
         <div class="row homepage-text justify-content-center">
             <div class="col-sm-12">
-                <img class="member-logo" src="/assets/member-logos/3M.png" alt="3M Logo">
-                <img class="member-logo" src="/assets/member-logos/Adlink.jpg" alt="3M Logo">
-                <img class="member-logo" src="/assets/member-logos/Aerobotix.png" alt="3M Logo">
-                <img class="member-logo" src="/assets/member-logos/AFManTech.jpeg" alt="3M Logo">
-                <img class="member-logo" src="/assets/member-logos/AL-Logo.png" alt="3M Logo">
-                <img class="member-logo" src="/assets/member-logos/Alias Robotics.png" alt="3M Logo">
+                <img class="member-logo" src="/rosindustrial-website/assets/member-logos/3M.png" alt="3M Logo">
+                <img class="member-logo" src="/rosindustrial-website/assets/member-logos/Adlink.jpg" alt="3M Logo">
+                <img class="member-logo" src="/rosindustrial-website/assets/member-logos/Aerobotix.png" alt="3M Logo">
+                <img class="member-logo" src="/rosindustrial-website/assets/member-logos/AFManTech.jpeg" alt="3M Logo">
+                <img class="member-logo" src="/rosindustrial-website/assets/member-logos/AL-Logo.png" alt="3M Logo">
+                <img class="member-logo" src="/rosindustrial-website/assets/member-logos/Alias Robotics.png" alt="3M Logo">
             </div>
         </div>
     </div>
