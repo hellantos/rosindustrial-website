@@ -1,0 +1,10 @@
+{% include default.html %}
+
+<body class="bg-grey">
+  {% include nav-bar.html homepage=true %}
+  <div class="container container-members page">
+    <h1>{{page.title}}</h1>
+    {{ content }}
+  </div>
+</body>
+{% include footer.html %}
