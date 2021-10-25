@@ -31,8 +31,8 @@ layout: homepage
 
     <div class="homepage">
         <div class="row homepage-text g-4">
-            <div class="col-xs-12 col-lg-4 col-sm-12" style="text-align: right;">
-                <h2>Advanced Manufacturing</h2>
+            <div class="col-xs-12 col-lg-4 col-sm-12" style="text-align: left;">
+                <h2>Advanced Manufacturing Technology</h2>
                 <p>ROS-Industrial is an open-source project with the mission to extend the advanced capabilities
                 of ROS to manufacturing automation and robotics.</p>
                 <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
@@ -43,43 +43,47 @@ layout: homepage
                 </div>
             </div>
         </div>
-        <div style="height: 50px;">
-        </div>
-        <div class="" style="text-align: center;">
+    </div>
+    <div class="homepage">
+        <div class="" style="text-align: left;">
             <h2>ROS-Industrial Software Stack</h2>
-            <p>The software stack provides drivers and tools for manufacturing specific robotics problems.</p>
-            <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
+            <p> Since the beginning of the ROS-Industrial intiative, we have been developing open source software 
+                that has been contributed to the ROS-Industrial Software Stack. Today, the software stack provides
+                drivers and tools for manufacturing specific robotics problems.</p>
         </div>
         <div class="row homepage-text g-4">
             <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: center;">
                 <img class="ros-i-icons" src="assets/images/drivers.png" alt="Cooperation Icon">
                 <h3>Drivers</h3>
                 <p>Robots, Actuators and Sensors</p>
+                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
             </div>
             <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: center;">
                 <img class="ros-i-icons" src="assets/images/motion_planning.png" alt="Cooperation Icon">
                 <h3>Motion Tools</h3>
                 <p>Moveit, Tesseract, Descartes</p>
+                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
             </div>
             <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: center;">
                 <img class="ros-i-icons" src="assets/images/application.png" alt="Cooperation Icon">
                 <h3>Automation Tools</h3>
                 <p>Scan & Plan, Pick & Place</p>
+                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
             </div>
             <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: center;">
                 <img class="ros-i-icons" src="assets/images/quality.png" alt="Cooperation Icon">
                 <h3>Quality Tools</h3>
                 <p>Continuous Integration, Model-driven Software Engineering</p>
+                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
             </div>
         </div>
     </div>
 
     <div class="homepage">
-        <div class="" style="text-align: center;">
+        <div class="" style="text-align: left;">
             <h2>Services for Members</h2>
             <p>The ROS-Industrial Consortium offers a wide range of services to its members in order to support
             the uptake of ROS in manufacturing.</p>
-            <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
         </div>
         <div class="row homepage-services">
 
@@ -91,16 +95,19 @@ layout: homepage
                                 <img class="ros-i-icons" src="assets/images/cooperation.png" alt="Cooperation Icon">
                                 <h3>Cooperation</h3>
                                 <p>Joint workshops, conferences and projects to improve robotics software for industrial automation.</p>
+                                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
                             </div>
                             <div class="col-xs-12 col-lg-4 col-sm-12">
                                 <img class="ros-i-icons" src="assets/images/technical-support.png" alt="Support Icon">
                                 <h3>Technical Support</h3>
                                 <p>Access expertise from partner institutions to solve your robotics challenges in industrial automation.</p>
+                                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
                             </div>
                             <div class="col-xs-12 col-lg-4 col-sm-12">
                                 <img class="ros-i-icons" src="assets/images/training.png" alt="Training Icon">
                                 <h3>Training</h3>
                                 <p>High quality training for professional ROS developers.</p>
+                                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
                             </div>
                         </div>
                     </div>
@@ -144,24 +151,6 @@ layout: homepage
                     {% endif %}  
                     {% endfor %}
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="homepage">
-        <div class="row homepage-title justify-content-center">
-            <div class="col-sm-12">
-                <h2 class="h2">Members of the Consortium</h2>
-            </div>
-        </div>
-        <div class="row homepage-text justify-content-center">
-            <div class="col-sm-12">
-                <img class="member-logo" src="{{site.prefix}}/assets/member-logos/3M.png" alt="3M Logo">
-                <img class="member-logo" src="{{site.prefix}}/assets/member-logos/Adlink.jpg" alt="3M Logo">
-                <img class="member-logo" src="{{site.prefix}}/assets/member-logos/Aerobotix.png" alt="3M Logo">
-                <img class="member-logo" src="{{site.prefix}}/assets/member-logos/AFManTech.jpeg" alt="3M Logo">
-                <img class="member-logo" src="{{site.prefix}}/assets/member-logos/AL-Logo.png" alt="3M Logo">
-                <img class="member-logo" src="{{site.prefix}}/assets/member-logos/Alias Robotics.png" alt="3M Logo">
             </div>
         </div>
     </div>
