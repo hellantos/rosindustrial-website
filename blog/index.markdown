@@ -22,11 +22,11 @@ title: Blog
           ></iframe>
         {% elsif post.media_type == 'image' %}
         <div class="blog-image-wrapper">
-          <img src="/rosindustrial-website/{{post.media_link}}" alt="iamge"/>
+          <img src="{{site.prefix}}/{{post.media_link}}" alt="iamge"/>
         </div>
         {%- else -%} 
         <div class="blog-image-wrapper">
-        <img src="/rosindustrial-website/assets/ric_logo.png" alt="image"/>
+        <img src="{{site.prefix}}/assets/ric_logo.png" alt="image"/>
         </div>
         {% endif %}  
       </div>
@@ -66,7 +66,7 @@ title: Blog
       </div>
     {%- else -%} 
       <div class="blog-image-wrapper">
-      <img style="padding: 5px;" src="/rosindustrial-website/assets/ric_logo.png" alt="image"/>
+      <img style="padding: 5px;" src="{{site.prefix}}/assets/ric_logo.png" alt="image"/>
       </div>
     {% endif %}  
       <a href="{{ post.url }}">

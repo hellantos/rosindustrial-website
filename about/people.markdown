@@ -11,7 +11,7 @@ title: People
         <div class="background-card" style="height: 100%;">
         <div class="row" style="height: 100%; background-color: lightgrey; margin: 0">
             <div class="col-5" style="padding-left: 0;" >
-                <img class="mugshot" src="/rosindustrial-website/{{person.image}}" alt="mugshot">
+                <img class="mugshot" src="{{site.prefix}}/{{person.image}}" alt="mugshot">
             </div>
             <div class="col-7" style="margin-top: 20px;">
                 <h2>{{person.name}}</h2>

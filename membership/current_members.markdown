@@ -16,7 +16,7 @@ title: Current Members
         <div class="background-card p-2" style="height: 100%;">
         <div class="row" style="height: 100%;  margin: 0">
             <div class="col-4" style="padding-left: 0; margin: auto auto">
-                <img class="member-logo" src="/rosindustrial-website/{{member.logo}}" alt="member-logo">
+                <img class="member-logo" src="{{site.prefix}}/{{member.logo}}" alt="member-logo">
             </div>
             <div class="col-8" style="margin-top: 20px;">
                 <h2>{{member.name}}</h2>
