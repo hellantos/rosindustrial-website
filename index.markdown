@@ -46,6 +46,10 @@ layout: homepage
         <div style="height: 50px;">
         </div>
         <div class="row homepage-text g-4">
+            <div class="col-xs-12 col-lg-4 col-sm-12" style="text-align: left;">
+                <h2>Industrial Software Stack</h2>
+                <p>The open source software stack to control robots and build new industrial automation applicaitons.</p>
+            </div>
             <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: left;">
                 <h3>Drivers</h3>
                 <p>Robots, Actuators and Sensors</p>
@@ -77,11 +81,6 @@ layout: homepage
                 <div class="row justify-content-center">
                     <div class="col-sm-12">
                         <div class="row align-items-start justify-content-center">
-                            <div class="col-xs-12 col-lg-6 col-sm-12">
-                                <img class="ros-i-icons" src="assets/images/software-stack.png" alt="Robot Icon">
-                                <h3>Software Stack</h3>
-                                <p>The open source software stack to control robots and build new industrial automation applicaitons.</p>
-                            </div>
                             <div class="col-xs-12 col-lg-6 col-sm-12">
                                 <img class="ros-i-icons" src="assets/images/cooperation.png" alt="Cooperation Icon">
                                 <h3>Cooperation</h3>
