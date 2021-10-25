@@ -22,7 +22,7 @@ title: Blog
           ></iframe>
         {% elsif post.media_type == 'image' %}
         <div class="blog-image-wrapper">
-          <img src="{{post.media_link}}" alt="iamge"/>
+          <img src="/rosindustrial-website/{{post.media_link}}" alt="iamge"/>
         </div>
         {%- else -%} 
         <div class="blog-image-wrapper">
