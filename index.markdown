@@ -45,11 +45,11 @@ layout: homepage
         </div>
         <div style="height: 50px;">
         </div>
+        <div class="" style="text-align: center;">
+            <h2>Industrial Software Stack</h2>
+            <p>The open source software stack to control robots and build new industrial automation applicaitons.</p>
+        </div>
         <div class="row homepage-text g-4">
-            <div class="col-xs-12 col-lg-4 col-sm-12" style="text-align: left;">
-                <h2>Industrial Software Stack</h2>
-                <p>The open source software stack to control robots and build new industrial automation applicaitons.</p>
-            </div>
             <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: left;">
                 <h3>Drivers</h3>
                 <p>Robots, Actuators and Sensors</p>
