@@ -6,7 +6,7 @@ layout: homepage
 ---
 <div class="container-fluid">
     <div class="homepage-header">
-        <div class="row row align-items-end homepage-header-image">
+        <div class="row row align-items-end homepage-header-image" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('{{site.prefix}}/assets/images/header-image.jpg');">
             <div class="col-sm-12">
                 <div class="homepage-header-text">
                     <div class="row homepage-main-wrapper justify-content-end">
