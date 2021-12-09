@@ -3,7 +3,7 @@ body {
     color: $dark-text;
     font-family: $font-family-base;
     &.black {
-      background: linear-gradient(to top, #1d1f25 0%, #15161b 100%);
+      background: #000;//linear-gradient(to top, #1d1f25 0%, #15161b 100%);
       color: $text;
       h1 {
         color: $white;

@@ -1,7 +1,6 @@
 ---
 author: admin
 comments: false
-date: 2013-12-08 23:55:02+00:00
 layout: blog
 slug: blog
 title: Blog

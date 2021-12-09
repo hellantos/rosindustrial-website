@@ -44,6 +44,7 @@ layout: homepage
             </div>
         </div>
     </div>
+
     <div class="homepage">
         <div class="" style="text-align: left;">
             <h2>ROS-Industrial Software Stack</h2>
@@ -52,27 +53,27 @@ layout: homepage
                 drivers and tools for manufacturing specific robotics problems.</p>
         </div>
         <div class="row homepage-text g-4">
-            <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: center;">
-                <img class="ros-i-icons" src="assets/images/drivers.png" alt="Cooperation Icon">
+            <div class="col-xs-12 col-lg-6 col-sm-12" style="text-align: center;">
+                <img class="ros-i-icons" src="assets/icons/Icon_driver.png" alt="Cooperation Icon">
                 <h3>Drivers</h3>
                 <p>Robots, Actuators and Sensors</p>
                 <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
             </div>
-            <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: center;">
-                <img class="ros-i-icons" src="assets/images/motion_planning.png" alt="Cooperation Icon">
+            <div class="col-xs-12 col-lg-6 col-sm-12" style="text-align: center;">
+                <img class="ros-i-icons" src="assets/icons/Icon_Motion.png" alt="Cooperation Icon">
                 <h3>Motion Tools</h3>
                 <p>Moveit, Tesseract, Descartes</p>
                 <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
             </div>
-            <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: center;">
-                <img class="ros-i-icons" src="assets/images/application.png" alt="Cooperation Icon">
+            <div class="col-xs-12 col-lg-6 col-sm-12" style="text-align: center;">
+                <img class="ros-i-icons" src="assets/icons/Icon_apps.png" alt="Cooperation Icon">
                 <h3>Automation Tools</h3>
                 <p>Scan & Plan, Pick & Place</p>
                 <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
             </div>
-            <div class="col-xs-12 col-lg-3 col-sm-12" style="text-align: center;">
-                <img class="ros-i-icons" src="assets/images/quality.png" alt="Cooperation Icon">
-                <h3>Quality Tools</h3>
+            <div class="col-xs-12 col-lg-6 col-sm-12" style="text-align: center;">
+                <img class="ros-i-icons" src="assets/icons/Icon_Quality.png" alt="Cooperation Icon">
+                <h3>Development Tools</h3>
                 <p>Continuous Integration, Model-driven Software Engineering</p>
                 <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
             </div>
@@ -87,24 +88,24 @@ layout: homepage
         </div>
         <div class="row homepage-services">
 
-            <div class="col-sm-12 col-lg-12">
+            <div class="col-sm-12 col-lg-12 g-4">
                 <div class="row justify-content-center">
                     <div class="col-sm-12">
                         <div class="row align-items-start justify-content-center">
-                            <div class="col-xs-12 col-lg-4 col-sm-12">
-                                <img class="ros-i-icons" src="assets/images/cooperation.png" alt="Cooperation Icon">
+                            <div class="col-xs-12 col-lg-6 col-sm-12">
+                                <img class="ros-i-icons" src="assets/icons/Icon_Cooperation.png" alt="Cooperation Icon">
                                 <h3>Cooperation</h3>
                                 <p>Joint workshops, conferences and projects to improve robotics software for industrial automation.</p>
                                 <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
                             </div>
-                            <div class="col-xs-12 col-lg-4 col-sm-12">
-                                <img class="ros-i-icons" src="assets/images/technical-support.png" alt="Support Icon">
+                            <div class="col-xs-12 col-lg-6 col-sm-12">
+                                <img class="ros-i-icons" src="assets/icons/Icon_Support.png" alt="Support Icon">
                                 <h3>Technical Support</h3>
                                 <p>Access expertise from partner institutions to solve your robotics challenges in industrial automation.</p>
                                 <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
                             </div>
-                            <div class="col-xs-12 col-lg-4 col-sm-12">
-                                <img class="ros-i-icons" src="assets/images/training.png" alt="Training Icon">
+                            <div class="col-xs-12 col-lg-6 col-sm-12">
+                                <img class="ros-i-icons" src="assets/icons/Icon_Training.png" alt="Training Icon">
                                 <h3>Training</h3>
                                 <p>High quality training for professional ROS developers.</p>
                                 <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
