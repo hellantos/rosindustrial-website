@@ -8,31 +8,32 @@ title: Technical Support
 
 The consortium provides support for using ROS and ROS 2 in industry. Our experts are available to help you with your development problems based on their hourly rates. The following members provide technical support on commercial basis:
 
-<div class="row gy-4">
-    <div class="col-3">
-    <h3>ARTC</h3>
-    Singapore
-    <a class="button" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
+<div class="row p-4">
+    <div class="col-4 p-4">
+    <h4>ARTC</h4>
+    <p>Singapore</p>
+    <p><b>Contact Information:</b><br>
+    Lee Soon Lee Seng <br>
+    TBD<br>
+    TBD</p>
     </div>
-     <div class="col-3">
-    <h3>Fraunhofer IPA</h3>
-    Stuttgart, Germany
-    <a class="button" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
-    </div>
-    <div class="col-3">
-    <h3>FZI</h3>
-    Karlsuhe, Germany
-    <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
-    </div>
-    <div class="col-3">
-    <h3>Tecnalia</h3>
-    Spain
-    <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
-    </div>
-    <div class="col-3">
-    <h3>SWRI</h3>
-    San Antonio, Texas
-    <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
+
+    <div class="col-4 p-4">
+    <h4>Fraunhofer IPA</h4>
+    <p>Stuttgart, Germany</p>
+    <p><b>Contact Information:</b><br>
+    Christoph Hellmann Santos <br>
+    opensourcerobotics@ipa.fraunhofer.de<br>
+    +49 711 970-1097</p>
+    </div>   
+
+    <div class="col-4 p-4">
+    <h4>Southwest Research Institute</h4>
+    <p>San Antonio, Texas</p>
+    <p><b>Contact Information:</b><br>
+    Matt M. Robinson <br>
+    TBD><br>
+    TBD</p>
     </div>
 </div>
 
