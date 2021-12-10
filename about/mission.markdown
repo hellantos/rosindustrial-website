@@ -16,3 +16,5 @@ standard, in advanced robotics software by presenting a new way to solve complex
 challenges through the democratization of tools and capabilities, thus driving end user
 value through new capability leverage, and solution provider value by focusing on the
 new capability creation versus recreation of interfaces and building blocks.
+
+<img src="../assets/images/Mission.png"/>
