@@ -30,7 +30,7 @@ title: Blog
         {% endif %}  
       </div>
       <div class="col-4">
-        <a href="{{ post.url }}">
+        <a href="{{site.prefix}}/{{ post.url }}">
           <div class="blog-text-wrapper">
             <span class="blog-date">
               {{ post.date | date: "%B %d, %Y" }}
@@ -68,7 +68,7 @@ title: Blog
       <img style="padding: 5px;" src="{{site.prefix}}/assets/ric_logo.png" alt="image"/>
       </div>
     {% endif %}  
-      <a href="{{ post.url }}">
+      <a href="{{site.prefix}}/{{ post.url }}">
         <div class="blog-text-wrapper">
           <span class="blog-date">
             {{ post.date | date: "%B %d, %Y" }}
