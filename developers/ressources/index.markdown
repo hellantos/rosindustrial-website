@@ -6,16 +6,38 @@ title: Ressources
 <p style="margin-bottom: 100px;">This site contains links to useful slides, repositories and videos.</p>
 
 
-<h3> Slides </h3>
+<h3> Resource Links </h3>
 <div class="row" style="margin-bottom: 100px;">
-  {% for ressource in site.ressources %}
-  {% if ressource.type == "slides" %}
   <div class="col-sm-12 col-lg-12 p-12 align-items-stretch">
     <div class="row">
       <div class="col-1" style="margin-top: auto; margin-bottom:auto"> 
-      <img src="../../assets/icons/Icon_Slides.png"/>
+      <h5> Type </h5>
       </div>
-      <div class="col-8" style="margin-top: auto; margin-bottom:auto">
+      <div class="col-2" style="margin-top: auto; margin-bottom:auto"> 
+      <h5> Date </h5>
+      </div>
+      <div class="col-6" style="margin-top: auto; margin-bottom:auto">
+        <h5>
+          Title
+        </h5>
+      </div>
+      <div class="col-3" style="margin-top: auto; margin-bottom:auto">
+        <h5> Link </h5>
+    </div>
+  {% for ressource in site.ressources %}
+  <div class="col-sm-12 col-lg-12 p-12 align-items-stretch">
+    <div class="row">
+      <div class="col-1" style="margin-top: auto; margin-bottom:auto"> 
+      {% if ressource.type == "slides" %}
+        <img src="../../assets/icons/Icon_Slides.png"/>
+      {% elsif ressource.type == "videos" %}
+        <img src="../../assets/icons/Icon_Videos.png"/>
+      {% endif %}
+      </div>
+      <div class="col-2" style="margin-top: auto; margin-bottom:auto"> 
+      <h5>{{ ressource.date | date: "%Y-%m-%d" }}</h5>
+      </div>
+      <div class="col-6" style="margin-top: auto; margin-bottom:auto">
         <h5>
           {{ ressource.title }}
         </h5>
@@ -25,52 +47,5 @@ title: Ressources
       </div>
     </div>
   </div>
-  {% endif %}
-  {% endfor %}
-</div>
-
-<h3> Videos </h3>
-<div class="row" style="margin-bottom: 100px;">
-  {% for ressource in site.ressources %}
-  {% if ressource.type == "videos" %}
-  <div class="col-sm-12 col-lg-12 p-12 align-items-stretch">
-    <div class="row">
-      <div class="col-1" style="margin-top: auto; margin-bottom:auto"> 
-      <img src="../../assets/icons/Icon_Videos.png"/>
-      </div>
-      <div class="col-8" style="margin-top: auto; margin-bottom:auto">
-        <h5>
-          {{ ressource.title }}
-        </h5>
-      </div>
-      <div class="col-3" style="margin-top: auto; margin-bottom:auto">
-        <a class="button" href="{{ ressource.link }}">Link</a>
-      </div>
-    </div>
-  </div>
-  {% endif %}
-  {% endfor %}
-</div>
-
-<h3> Repositories </h3>
-<div class="row">
-  {% for ressource in site.ressources %}
-  {% if ressource.type == "repo" %}
-  <div class="col-sm-12 col-lg-12 p-12 align-items-stretch">
-    <div class="row">
-      <div class="col-1" style="margin-top: auto; margin-bottom:auto"> 
-      <img src="../../assets/icons/Icon_Repo.png"/>
-      </div>
-      <div class="col-8" style="margin-top: auto; margin-bottom:auto">
-        <h5>
-          {{ ressource.title }}
-        </h5>
-      </div>
-      <div class="col-3" style="margin-top: auto; margin-bottom:auto">
-        <a class="button" href="{{ ressource.link }}">Link</a>
-      </div>
-    </div>
-  </div>
-  {% endif %}
   {% endfor %}
 </div>

@@ -26,4 +26,4 @@ collections:
   members:
     output: true
   ressources:
-    output: true
+    sort_by: start_date

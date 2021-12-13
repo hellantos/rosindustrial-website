@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 slug: index
 layout: homepage
+title: Home
 ---
 <div class="container-fluid">
     <div class="homepage-header">
@@ -82,7 +83,7 @@ layout: homepage
 
     <div class="homepage">
         <div class="" style="text-align: left;">
-            <h2>ROS-Industrial Services</h2>
+            <h2>ROS-Industrial Consortium Services</h2>
             <p>The ROS-Industrial Consortium offers a wide range of services to its members in order to support
             the uptake of ROS in manufacturing.</p>
         </div>
@@ -116,7 +117,16 @@ layout: homepage
             </div>
         </div>
     </div>
-
+    <div class="homepage">
+        <h2 style="padding-bottom: 50px;">ROS-Industrial Consortium Members</h2>
+        <div class="row align-items-center justify-content-center p-2" style="background: white;">
+            {% for member in site.members %}
+            <div class="col-1 p-2">
+                <img src="{{site.prefix}}/{{ member.logo }}" style="object-fit: contain; height: 100px;">
+            </div>
+            {% endfor %}
+        </div>
+    </div>
     <div class="homepage">
         <div class="row homepage-event justify-content-center">
             <div class="col-sm-4" style="text-align: left;">
