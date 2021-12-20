@@ -8,7 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-prefix: /rosindustrial-website
+#prefix: /rosindustrial-website
 # Build settings
 plugins:
   - jekyll-feed
@@ -26,4 +26,4 @@ collections:
   members:
     output: true
   ressources:
-    sort_by: start_date
+    sort_by: date

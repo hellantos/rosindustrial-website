@@ -7,7 +7,8 @@ title: Home
 ---
 <div class="container-fluid">
     <div class="homepage-header">
-        <div class="row row align-items-end homepage-header-image" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('{{site.prefix}}/assets/images/header-image.jpg');">
+    <div style="background-image: url('{{site.prefix}}/assets/images/header-image.jpg');background-size: cover;">
+        <div class="row row align-items-end homepage-header-image" style="background:rgba(0,0,0,0.5); ">
             <div class="col-sm-12">
                 <div class="homepage-header-text">
                     <div class="row homepage-main-wrapper justify-content-end">
@@ -27,6 +28,7 @@ title: Home
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 
@@ -118,20 +120,27 @@ title: Home
         </div>
     </div>
     <div class="homepage">
-        <h2 style="padding-bottom: 50px;">ROS-Industrial Consortium Members</h2>
+        <div style="text-align: center">
+        <h2>ROS-Industrial Consortium Members</h2>
+        <p style="padding-bottom: 30px;">The ROS-Industrial Initiative is supported by a consortium of organisations that actively use 
+        ROS and believe in the ROS-Industrial Vision. </p>
+        </div>
         <div class="row align-items-center justify-content-center p-2" style="background: white;">
             {% for member in site.members %}
             <div class="col-1 p-2">
-                <img src="{{site.prefix}}/{{ member.logo }}" style="object-fit: contain; height: 100px;">
+                <img src="{{site.prefix}}{{member.logo}}" style="object-fit: contain; height: 100px;">
             </div>
             {% endfor %}
+        </div>
+        <div style="text-align: center;">
+        <a class="button button-transparent" style="margin-right: auto; margin-left: auto; margin-bottom: 0px; margin-top: 50px;" href="#">Become a Member</a>
         </div>
     </div>
     <div class="homepage">
         <div class="row homepage-event justify-content-center">
             <div class="col-sm-4" style="text-align: left;">
-                <h2 class="h2">Events</h2>
-                <p>ROS-Industrial is an open-source project that extends the advanced capabilities of ROS to manufacturing automation and robotics.</p>
+                <h2 class="h2">Upcoming Events</h2>
+                <p>The ROS-Industrial Consortium and its members are organising a number of events such as trainings, workshops and conferences.</p>
                 <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
             </div>
             <div class="col-sm-8">

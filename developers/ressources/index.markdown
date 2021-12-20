@@ -3,10 +3,35 @@ layout: page
 slug: developers/ressources
 title: Ressources
 ---
-<p style="margin-bottom: 100px;">This site contains links to useful slides, repositories and videos.</p>
+<p style="margin-bottom: 50px;">This site contains links to useful slides, repositories and videos.</p>
+<div class="row align-items-stretch">
+    <div class="col-4 d-flex align-items-stretch">
+        <div class="card" >
+        <img src="../../assets/images/application.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">3D Camera Survey </h5>
+            <p class="card-text">
+            A comprehensive list of 3D cameras including their characteristics, that can be used with ROS.
+            </p>
+            <a class="button" href="#">Link</a>
+        </div>
+        </div>
+    </div>
+        <div class="col-4 d-flex align-items-stretch">
+        <div class="card" >
+        <img src="../../assets/images/application.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Training Material</h5>
+            <p class="card-text">
+            The complete materials of the ROS-Industrial Consortium America's Training.
+            </p>
+            <a class="button" href="https://industrial-training-master.readthedocs.io/en/foxy/">Link</a>
+        </div>
+        </div>
+    </div>
+</div>
 
-
-<h3> Resource Links </h3>
+<h3 style="margin-top: 50px;"> Event Material </h3>
 <div class="row" style="margin-bottom: 100px;">
   <div class="col-sm-12 col-lg-12 p-12 align-items-stretch">
     <div class="row">
@@ -24,7 +49,7 @@ title: Ressources
       <div class="col-3" style="margin-top: auto; margin-bottom:auto">
         <h5> Link </h5>
     </div>
-  {% for ressource in site.ressources %}
+  {% for ressource in site.ressources reversed %}
   <div class="col-sm-12 col-lg-12 p-12 align-items-stretch">
     <div class="row">
       <div class="col-1" style="margin-top: auto; margin-bottom:auto"> 
