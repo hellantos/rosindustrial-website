@@ -4,6 +4,8 @@ slug: developers/ressources
 title: Ressources
 ---
 <p style="margin-bottom: 50px;">This site contains links to useful slides, repositories and videos.</p>
+
+<h3 style="margin-top: 50px;"> Developer Material </h3>
 <div class="row align-items-stretch">
     <div class="col-4 d-flex align-items-stretch">
         <div class="card" >
