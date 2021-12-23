@@ -16,7 +16,7 @@
                 ></iframe>
                 {% elsif page.media_type == 'image' %}
                 <div class="blog-image-wrapper">
-                <img src="{{page.media_link}}" alt="image"/>
+                <img src="{{site.prefix}}{{page.media_link}}" alt="image"/>
                 </div>
                 {%- else -%} 
                 <div class="blog-image-wrapper">
