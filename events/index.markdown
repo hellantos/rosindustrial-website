@@ -41,7 +41,7 @@ title: Events
           {{ event.start_date | date: "%B %d, %Y" }} - {{ event.end_date | date: "%B %d, %Y" }}<br/>
           {{event.location}}
         </p>
-        <a class="button" href="{{ event.url }}">Info</a>
+        <a class="button" href="{{site.prefix}}{{ event.url }}">Info</a>
       </div>
     </div>
   </div>
