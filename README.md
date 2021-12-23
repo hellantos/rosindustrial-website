@@ -18,3 +18,16 @@ Then use jekyll to build:
 bundle exec jekyll serve
 ```
 
+## Adding a contributer
+
+Add a file with the following contents under `_people/` and add a mugshot under `assets/mugshots` with the contributers full name as file name. 
+
+```
+---
+name: [Contributer name]
+position: [Contributer position]
+image: /assets/mugshots/[mugshot file]
+---
+short cv
+```
+

@@ -1,0 +1,217 @@
+---
+layout: page
+slug: developers/packages
+title: Packages
+---
+
+Vendors provide differnet levels of support for ROS. The ROS-Industrial consortium
+recommends the following usage depending on the support level.
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Support level</th>
+        <th scope="col">Suggestion</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="badge rounded-pill bg-success">Consortium & Vendor</span></td>
+        <td>Recommended for industrial use.</td>
+      </tr>
+      <tr>
+        <td><span class="badge rounded-pill bg-warning">Vendor</span></td>
+        <td>Industrial use possible.</td>
+      </tr>
+      <tr>
+        <td><span class="badge rounded-pill bg-danger">Community</span></td>
+        <td>Use only for R&D projects.</td>
+      </tr>
+    </tbody>
+</table>
+
+<p>If your package is missing on this page, please open an issue on the websites repository.</p>
+
+<h2 style="padding-top: 50px;" id="drivers"> Drivers & support packages </h2>
+<p>This lists available drivers, that have been created by the ROS-Industrial consortium
+or the ROS-Industrial community.
+</p>
+
+<div class="row gy-4">
+    {% assign sorted_packages = (site.packages | sort: 'level') %}
+    {%- for item in sorted_packages reversed -%}
+    {%- if item.category == "Driver" -%}
+    <div class="col-3 d-flex align-items-stretch">
+        {%- if item.level == 2 -%}
+        <div class="card" style="border-width: 2px;">
+        {%- elsif item.level == 1 -%}
+        <div class="card" style="border-style: dashed; border-width: 2px;">
+        {%- else -%}
+        <div class="card" style="border-style: dashed; background-color: #EEE; border-width: 2px;">
+        {%- endif -%}
+        
+            <div class="card-body">
+                <h3 class="card-title"> {{ item.name }} </h3>
+                <div class="card-text">
+                <p>
+                    {%- if item.ros1 == "y" -%}
+                        <span class="badge rounded-pill bg-primary">ROS1</span>
+                    {%- endif -%}
+                    {%- if item.ros2 == "y" -%}
+                        <span class="badge rounded-pill bg-secondary">ROS2</span>
+                    {%- endif -%}
+                    <br>
+                    {%- if item.level == 2 -%}
+                        <span class="badge rounded-pill bg-success">Consortium & Vendor</span>
+                    {%- elsif item.level == 1 -%}
+                        <span class="badge rounded-pill bg-warning">Vendor</span>
+                    {%- else -%}
+                        <span class="badge rounded-pill bg-danger">Community</span>
+                    {%- endif -%}
+                    <br>
+                </p>
+                <p>{{ item.description }}</p>
+                <a href="{{ item.repo }}" class="button"> repo </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {%- endif -%}
+    {%- endfor -%}
+</div>
+
+<h2 style="padding-top: 50px;" id="motion"> Motion Tools </h2>
+
+<div class="row gy-4">
+    {% assign sorted_packages = (site.packages | sort: 'level') %}
+    {%- for item in sorted_packages reversed -%}
+    {%- if item.category == "Motion Tool" -%}
+    <div class="col-3 d-flex align-items-stretch">
+        {%- if item.level == 2 -%}
+        <div class="card" style="border-width: 2px;">
+        {%- elsif item.level == 1 -%}
+        <div class="card" style="border-style: dashed; border-width: 2px;">
+        {%- else -%}
+        <div class="card" style="border-style: dashed; background-color: #EEE; border-width: 2px;">
+        {%- endif -%}
+        
+            <div class="card-body">
+                <h3 class="card-title"> {{ item.name }} </h3>
+                <div class="card-text">
+                <p>
+                    {%- if item.ros1 == "y" -%}
+                        <span class="badge rounded-pill bg-primary">ROS1</span>
+                    {%- endif -%}
+                    {%- if item.ros2 == "y" -%}
+                        <span class="badge rounded-pill bg-secondary">ROS2</span>
+                    {%- endif -%}
+                    <br>
+                    {%- if item.level == 2 -%}
+                        <span class="badge rounded-pill bg-success">Consortium & Vendor</span>
+                    {%- elsif item.level == 1 -%}
+                        <span class="badge rounded-pill bg-warning">Vendor</span>
+                    {%- else -%}
+                        <span class="badge rounded-pill bg-danger">Community</span>
+                    {%- endif -%}
+                    <br>
+                </p>
+                <p>{{ item.description }}</p>
+                <a href="{{ item.repo }}" class="button"> repo </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {%- endif -%}
+    {%- endfor -%}
+</div>
+
+<h2 style="padding-top: 50px;" id="automation"> Automation Tools </h2>
+
+<div class="row gy-4">
+    {% assign sorted_packages = (site.packages | sort: 'level') %}
+    {%- for item in sorted_packages reversed -%}
+    {%- if item.category == "Automation Tool" -%}
+    <div class="col-3 d-flex align-items-stretch">
+        {%- if item.level == 2 -%}
+        <div class="card" style="border-width: 2px;">
+        {%- elsif item.level == 1 -%}
+        <div class="card" style="border-style: dashed; border-width: 2px;">
+        {%- else -%}
+        <div class="card" style="border-style: dashed; background-color: #EEE; border-width: 2px;">
+        {%- endif -%}
+        
+            <div class="card-body">
+                <h3 class="card-title"> {{ item.name }} </h3>
+                <div class="card-text">
+                <p>
+                    {%- if item.ros1 == "y" -%}
+                        <span class="badge rounded-pill bg-primary">ROS1</span>
+                    {%- endif -%}
+                    {%- if item.ros2 == "y" -%}
+                        <span class="badge rounded-pill bg-secondary">ROS2</span>
+                    {%- endif -%}
+                    <br>
+                    {%- if item.level == 2 -%}
+                        <span class="badge rounded-pill bg-success">Consortium & Vendor</span>
+                    {%- elsif item.level == 1 -%}
+                        <span class="badge rounded-pill bg-warning">Vendor</span>
+                    {%- else -%}
+                        <span class="badge rounded-pill bg-danger">Community</span>
+                    {%- endif -%}
+                    <br>
+                </p>
+                <p>{{ item.description }}</p>
+                <a href="{{ item.repo }}" class="button"> repo </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {%- endif -%}
+    {%- endfor -%}
+</div>
+
+
+<h2 style="padding-top: 50px;" id="development"> Development Tools </h2>
+
+<div class="row gy-4">
+    {% assign sorted_packages = (site.packages | sort: 'level') %}
+    {%- for item in sorted_packages reversed -%}
+    {%- if item.category == "Development Tool" -%}
+    <div class="col-3 d-flex align-items-stretch">
+        {%- if item.level == 2 -%}
+        <div class="card" style="border-width: 2px;">
+        {%- elsif item.level == 1 -%}
+        <div class="card" style="border-style: dashed; border-width: 2px;">
+        {%- else -%}
+        <div class="card" style="border-style: dashed; background-color: #EEE; border-width: 2px;">
+        {%- endif -%}
+        
+            <div class="card-body">
+                <h3 class="card-title"> {{ item.name }} </h3>
+                <div class="card-text">
+                <p>
+                    {%- if item.ros1 == "y" -%}
+                        <span class="badge rounded-pill bg-primary">ROS1</span>
+                    {%- endif -%}
+                    {%- if item.ros2 == "y" -%}
+                        <span class="badge rounded-pill bg-secondary">ROS2</span>
+                    {%- endif -%}
+                    <br>
+                    {%- if item.level == 2 -%}
+                        <span class="badge rounded-pill bg-success">Consortium & Vendor</span>
+                    {%- elsif item.level == 1 -%}
+                        <span class="badge rounded-pill bg-warning">Vendor</span>
+                    {%- else -%}
+                        <span class="badge rounded-pill bg-danger">Community</span>
+                    {%- endif -%}
+                    <br>
+                </p>
+                <p>{{ item.description }}</p>
+                <a href="{{ item.repo }}" class="button"> repo </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {%- endif -%}
+    {%- endfor -%}
+</div>

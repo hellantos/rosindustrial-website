@@ -27,3 +27,8 @@ collections:
     output: true
   ressources:
     sort_by: date
+  trainings:
+    output: false
+  packages:
+    output: false
+    sort_by: level
