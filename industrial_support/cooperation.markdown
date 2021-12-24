@@ -10,7 +10,7 @@ new and advanced manufacturing technologies that benefit all participating partn
 are different types of projects that are facilitated by the ROS-Industrial Consortium.
 </p>
 <div class="row align-items-stretch">
-    <div class="col-4">
+    <div class="col-xs-12 col-lg-4 col-sm-12">
         <div class="card" >
         <img src="../assets/images/application.png" class="card-img-top" alt="...">
         <div class="card-body">
@@ -23,7 +23,7 @@ are different types of projects that are facilitated by the ROS-Industrial Conso
         </div>
         </div>
     </div>
-    <div class="col-4">
+    <div class="col-xs-12 col-lg-4 col-sm-12">
         <div class="card" >
         <img src="../assets/images/application.png" class="card-img-top" alt="...">
         <div class="card-body">
@@ -35,7 +35,7 @@ are different types of projects that are facilitated by the ROS-Industrial Conso
         </div>
         </div>
     </div>
-    <div class="col-4">
+    <div class="col-xs-12 col-lg-4 col-sm-12">
         <div class="card" >
         <img src="../assets/images/application.png" class="card-img-top" alt="...">
         <div class="card-body">

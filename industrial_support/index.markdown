@@ -9,7 +9,7 @@ title: Technical Support
 The consortium provides support for using ROS and ROS 2 in industry. Our experts are available to help you with your development problems based on their hourly rates. The following members provide technical support on commercial basis:
 
 <div class="row align-items-stretch">
-    <div class="col-4 d-flex align-items-stretch">
+    <div class="col-xs-12 col-lg-4 col-sm-12 d-flex align-items-stretch">
     <div class="card" style="width:100%;">
         <img src="../assets/member-logos/logo_ARTC.png" class="card-img-top" alt="..." height="200px">
         <div class="card-body">
@@ -22,7 +22,7 @@ The consortium provides support for using ROS and ROS 2 in industry. Our experts
         </div>
     </div>
     </div>
-    <div class="col-4 d-flex align-items-stretch">
+    <div class="col-xs-12 col-lg-4 col-sm-12 d-flex align-items-stretch">
     <div class="card" style="width:100%;">
         <img src="../assets/member-logos/logo_ipa.gif" class="card-img-top" alt="..." height="200px">
         <div class="card-body">
@@ -35,7 +35,7 @@ The consortium provides support for using ROS and ROS 2 in industry. Our experts
         </div>
     </div>
     </div>
-    <div class="col-4 d-flex align-items-stretch">
+    <div class="col-xs-12 col-lg-4 col-sm-12 d-flex align-items-stretch">
     <div class="card" style="width:100%;">
         <img src="../assets/member-logos/logo_swri.gif" class="card-img-top" alt="..." height="200px">
         <div class="card-body">

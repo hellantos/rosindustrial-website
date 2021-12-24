@@ -10,7 +10,7 @@ title: Blog
   {% for post in site.posts limit: 1 %}
   <div class="col-sm-12 col-lg-12 p-2">
     <div class="row blog-image-wrapper">
-      <div class="col-8 blog-image-wrapper">
+      <div class="col-xs-12 col-lg-8 col-sm-12 blog-image-wrapper">
         {% if post.media_type == 'video' %}
           <iframe
             style="width:100%;"
@@ -29,7 +29,7 @@ title: Blog
         </div>
         {% endif %}  
       </div>
-      <div class="col-4">
+      <div class="col-xs-12 col-lg-4 col-sm-12">
         <a href="{{site.prefix}}/{{ post.url }}">
           <div class="blog-text-wrapper">
             <span class="blog-date">

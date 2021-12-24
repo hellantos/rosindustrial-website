@@ -8,7 +8,7 @@ The ROS-Industrial Consortium provides training courses around using ROS in indu
 
 <div class="row align-items-stretch gy-4">
     {%- for training in site.trainings -%}
-    <div class="col-4 d-flex align-items-stretch">
+    <div class="col-xs-12 col-lg-4 col-sm-12 d-flex align-items-stretch">
     <div class="card" style="width:100%;">
         <img src="../../{{ training.image }}" class="card-img-top" alt="..."/>
         <div class="card-body">
