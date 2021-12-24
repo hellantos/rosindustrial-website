@@ -8,7 +8,7 @@ title: Ressources
 <h3 style="margin-top: 50px;"> Developer Material </h3>
 <p>Here we list materials that are directly of interest for developers and their design decisions.</p>
 <div class="row align-items-stretch">
-    <div class="col-4 d-flex align-items-stretch">
+    <div class="col-xs-12 col-lg-4 col-sm-12 d-flex align-items-stretch">
         <div class="card" >
         <img src="../../assets/images/application.png" class="card-img-top" alt="...">
         <div class="card-body">
@@ -20,7 +20,7 @@ title: Ressources
         </div>
         </div>
     </div>
-        <div class="col-4 d-flex align-items-stretch">
+        <div class="col-xs-12 col-lg-4 col-sm-12 d-flex align-items-stretch">
         <div class="card" >
         <img src="../../assets/images/application.png" class="card-img-top" alt="...">
         <div class="card-body">
@@ -36,12 +36,12 @@ title: Ressources
 
 <h3 style="margin-top: 50px;"> Event Material </h3>
 <p>Materials of past events, that are openly available. These are typically slide decks or videos.</p>
+<div class="table-responsive">
 <table class="table table-striped">
     <thead>
       <tr>
         <th scope="col">Title</th>
         <th scope="col">Date</th>
-        <th scope="col">Type</th>
         <th scope="col">Link</th>
       </tr>
     </thead>
@@ -49,22 +49,22 @@ title: Ressources
       {% for ressource in site.ressources reversed %}
       <tr class="align-middle">
         <td>
-          <h5>{{ ressource.title }}</h5>
+          {{ ressource.title }}
         </td>
         <td>
-          <h5>{{ ressource.date | date: "%m/%Y" }}</h5>
+          <p>{{ ressource.date | date: "%m/%Y" }}</p>
         </td>
         <td>
+          <a href="{{ ressource.link }}">
           {% if ressource.type == "slides" %}
             <img src="../../assets/icons/Icon_Slides.png" height="50px"/>
           {% elsif ressource.type == "videos" %}
             <img src="../../assets/icons/Icon_Videos.png" height="50px"/>
           {% endif %}
-        </td>
-        <td>
-          <a class="button" href="{{ ressource.link }}">Link</a>
+        </a>
         </td>        
       </tr>
       {% endfor %}
     </tbody>
 </table>
+</div>

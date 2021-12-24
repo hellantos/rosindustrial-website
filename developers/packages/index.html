@@ -41,7 +41,7 @@ or the ROS-Industrial community.
     {% assign sorted_packages = (site.packages | sort: 'level') %}
     {%- for item in sorted_packages reversed -%}
     {%- if item.category == "Driver" -%}
-    <div class="col-3 d-flex align-items-stretch">
+    <div class="col-xs-12 col-lg-3 col-sm-12 d-flex align-items-stretch">
         {%- if item.level == 2 -%}
         <div class="card" style="border-width: 2px;">
         {%- elsif item.level == 1 -%}
@@ -86,7 +86,7 @@ or the ROS-Industrial community.
     {% assign sorted_packages = (site.packages | sort: 'level') %}
     {%- for item in sorted_packages reversed -%}
     {%- if item.category == "Motion Tool" -%}
-    <div class="col-3 d-flex align-items-stretch">
+    <div class="col-xs-12 col-lg-3 col-sm-12 d-flex align-items-stretch">
         {%- if item.level == 2 -%}
         <div class="card" style="border-width: 2px;">
         {%- elsif item.level == 1 -%}
@@ -131,7 +131,7 @@ or the ROS-Industrial community.
     {% assign sorted_packages = (site.packages | sort: 'level') %}
     {%- for item in sorted_packages reversed -%}
     {%- if item.category == "Automation Tool" -%}
-    <div class="col-3 d-flex align-items-stretch">
+    <div class="col-xs-12 col-lg-3 col-sm-12 d-flex align-items-stretch">
         {%- if item.level == 2 -%}
         <div class="card" style="border-width: 2px;">
         {%- elsif item.level == 1 -%}
@@ -177,7 +177,7 @@ or the ROS-Industrial community.
     {% assign sorted_packages = (site.packages | sort: 'level') %}
     {%- for item in sorted_packages reversed -%}
     {%- if item.category == "Development Tool" -%}
-    <div class="col-3 d-flex align-items-stretch">
+    <div class="col-xs-12 col-lg-3 col-sm-12 d-flex align-items-stretch">
         {%- if item.level == 2 -%}
         <div class="card" style="border-width: 2px;">
         {%- elsif item.level == 1 -%}
