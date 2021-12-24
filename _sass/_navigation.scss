@@ -125,10 +125,19 @@
 //   }
 
 .navbar {
+  padding: 70px 10px 70px 0;
+  @media screen and (max-width: 1199px) {
+    padding: 25px 10px;
+  }
+  .navbar-collapse {
+    @media screen and (max-width: 1199px) {
+      padding-top: 20px;
+    }
+  }
   .navbar-brand {
     img {
-      width: 280px;
-      height: 130px;
+      width: 155px;
+      max-width: 100%;
     }
   }
   ul {

@@ -1,8 +1,14 @@
 .homepage-header {
-    .homepage-header-image {
-        width: 100%;
+    .image-container{
+        margin: 0 0 0 0;
         height: 500px;
+        background-image: url('../images/header-image.png');
         background-size: cover;
+        background-position-y: 70%;
+    }
+    .homepage-header-image {
+        margin: 0 0 0 0;
+        height: 100%;
     }
     .homepage-header-text {
         max-width: 80%;
