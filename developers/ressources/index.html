@@ -6,6 +6,7 @@ title: Ressources
 <p style="margin-bottom: 50px;">This site contains links to useful slides, repositories and videos.</p>
 
 <h3 style="margin-top: 50px;"> Developer Material </h3>
+<p>Here we list materials that are directly of interest for developers and their design decisions.</p>
 <div class="row align-items-stretch">
     <div class="col-4 d-flex align-items-stretch">
         <div class="card" >
@@ -51,7 +52,7 @@ title: Ressources
           <h5>{{ ressource.title }}</h5>
         </td>
         <td>
-          <h5>{{ ressource.date | date: "%Y-%m-%d" }}</h5>
+          <h5>{{ ressource.date | date: "%m/%Y" }}</h5>
         </td>
         <td>
           {% if ressource.type == "slides" %}
