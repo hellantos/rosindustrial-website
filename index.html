@@ -118,15 +118,15 @@ title: Home
             </div>
         </div>
     </div>
-    <div class="homepage d-none d-block-sm">
+    <div class="homepage d-none d-md-block">
         <div style="text-align: center">
         <h2>ROS-Industrial Consortium Members</h2>
         <p style="padding-bottom: 30px;">The ROS-Industrial Initiative is supported by a consortium of organisations that actively use 
         ROS and believe in the ROS-Industrial Vision. </p>
         </div>
-        <div class="row align-items-center justify-content-center p-2" style="background: white;">
+        <div class="row align-items-center justify-content-center gy-2" style="background: white;">
             {% for member in site.members %}
-            <div class="col-1 p-2">
+            <div class="col-1">
                 <img src="{{site.prefix}}{{member.logo}}" style="object-fit: contain; height: 100px;">
             </div>
             {% endfor %}
