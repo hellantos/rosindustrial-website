@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      
+        ROS-Industrial is buzzing | ROS-Industrial Consortium
+      
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+    
+    <link href="/rosindustrial-website/assets/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/rosindustrial-website/assets/css/main.css" />
+    <style>
+        .brand-logo{
+            width: 62%;
+        }
+    </style>
+    <script type="text/javascript" src="/rosindustrial-website/assets/jquery-3.6.0-dist/jquery.min.js"> </script>
+    <script type="text/javascript" src="/rosindustrial-website/assets/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" ></script>
+  </head>
+
+<body>
+    <div class="header">
+  <!--
+    <div class="github github-blog">
+      <a href="https://github.com/ros-industrial" target="_blank" class="github-corner" aria-label="View source on Github">
+        <svg width="71" height="71" viewBox="0 0 250 250" style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+          <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+          <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+          <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
+        </svg>
+      </a>
+    </div>
+  -->
+  <!--<div class="container container-navigation">-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+        aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <a class="navbar-brand" href="/rosindustrial-website/">
+          <img alt="Brand" class="brand-logo" src="/rosindustrial-website/assets/ric_logo_white_155px.png" />
+        </a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+              <li><a class="dropdown-item" href="/rosindustrial-website/about/vision">Vision</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/about/">History</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/about/people">People</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMember" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Membership
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMember">
+              <li><a class="dropdown-item" href="/rosindustrial-website/membership/current_members">Current Members</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/membership/americas">Americas</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/membership/europe">Europe</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/membership/asia_pacific">Asia & Pacific</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDevelopers" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Developers
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownDevelopers">
+              <li><a class="dropdown-item" href="https://github.com/ros-industrial-consortium"
+                  target="_blank">Consortium
+                  Github</a></li>
+              <li><a class="dropdown-item" href="https://github.com/ros-industrial" target="_blank">Project Github</a>
+              </li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/developers/ressources">Ressources</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/developers/packages">Packages</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/developers/meetings">Developer Meetings</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSupport" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Industry
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownSupport">
+              <li><a class="dropdown-item" href="/rosindustrial-website/industrial_support">Technical Support</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/industrial_support/training">Training</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/industrial_support/cooperation">Cooperation</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/rosindustrial-website/blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/rosindustrial-website/events/">Events</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+    <div class="container container-post page">
+    <div class="row post-headline">
+        <div class="col-4">
+            <div class="blog-image-wrapper">
+                
+                <div class="blog-image-wrapper">
+                <img src="/rosindustrial-website/assets/images/ROS-Industrial Conference Logo 2021.png" alt="image"/>
+                </div>  
+            </div>
+        </div>
+        <div class="col-8">
+            <h1 style="margin-bottom: 10px;">ROS-Industrial is buzzing</h1>
+            <p style="margin-bottom: 50px;">By ROS-Industrial Europe, December 08, 2021</p>
+        </div>
+    </div>
+        <p><strong>This year’s ROS-Industrial Conference took place on December 01-02, 2021 as a virtual event. With more than 300 registrants it was the largest conference of the so far 9 conferences that have been organized since 2012. In this article, we try to capture the major developments around the ROS-Industrial initiative presented during the conference.</strong></p>
+
+<p>At the conference <strong>Drag &amp; Bot</strong> explained how their system for easy robot programming is being used by industry and showed a number of example applications. Their software is based on ROS and enables programming different industrial robots using a simple drag and drop interface. Drag &amp; Bot also offers an interface for integrating external ROS programs and can be used by developers to deploy their ROS based solutions to industry.</p>
+
+<p>Another company that has today more than 450 mobile robots running their ROS based navigation is <strong>Node Robotics</strong>. Robots running Node Robotics software are deployed in BMW’s production facilities and in other companies. Node Robotics software offers easy integration of mobile robots of different types into one fleet.  The ROS-based software system enables operating a single AMR, data sharing between AMRs as well as building custom fleet management systems. The companies first deployment of freely navigating AMRs was in 2016 in a plant of the automobile producer Audi.</p>
+
+<p>The ROS-Industrial ecosystem is producing a number of cutting edge solutions integrating ROS with industry. <strong>Pilz</strong> is providing a portfolio of safety components that can be used to build a safety system around ROS based mobile robots. The center of the portfolio is the laser scanner PSENscan that can monitor configurable safety zones for the robot. The PSENscan also offers functionalities for integrating speed monitoring and it integrates with ROS via an open source driver.</p>
+
+<p>Progress has also been made with regards to real-time execution in ROS2 systems. Andrei Kholodnyi (<strong>Wind River</strong>), co-lead of the ROS2 real-time working group, presented the groups work. Members of the working group have developed a number of new real-time optimized ROS2 executors. Another available component provided by the working group is a Raspberry PI4 based real-time benchmarking system with RT_PREEMPT kernel for Ubuntu 20.04.  ROS2 developers that are not satisfied with the real-time performance of RT patched Linux can also choose to switch to Wind River’s vxWorks or Blackberry’s QNX, both systems executing ROS2 applications.</p>
+
+<p>As previously mentioned, Drag &amp; Bot’s software offers one way to integrate ROS into an industrial robotics platform but more solutions are becoming available. Another approach was presented by <strong>Universal Robots (UR)</strong> and <strong>Forschungszentrum Informatik (FZI)</strong> who have been collaborating to develop an advanced ROS interface for UR’s robots. The work enables direct integration of externally running ROS-based applications into URScript programs running on the robot. During the conference they showed a new interface that enable cartesian control and speed scaling for industrial robots from within ROS.  UR also showed a prototype of a URCap that enables integration with ROS at the conference. The goal of the development is to leverage ROS’ capabilities for UR’s robots and making them available via URCaps.</p>
+
+<p><strong>Canonical</strong> the publisher of Ubuntu also presented their solutions for deploying robot software. Their solution mainly consists of snap and Ubuntu Core.  Snap is a solution to create containerized and easily deployable software applications. Canonical claims that snaps have advantages for embedded systems, compared to other solutions such as docker, because they are more easily integrated with embedded hardware. Ubuntu Core is a minimal operating system including application packages which is based on snap containers which enables a modular and simple architecture for embedded systems. The Canonical software solutions are optimized for ROS and they are already used in industry e.g. in Bosch Rexroth’s CtrlX. Snaps are becoming another way of integrating ROS in industrial control systems and software platforms of the future.</p>
+
+<p><strong>Ericsson</strong> and <strong>eProsima</strong> presented their work of integrating ROS2 with 5G systems and thus moving ROS2 towards enabling distributed real-time systems. The two organizations collaborated on developing an interface for ROS2 and the underlying DDS middleware implementations to enable creating unique IP flows for specified ROS2 communications and setting 5G quality of service parameters for these IP flows. The interface has been integrated in eProsima’s FastDDS. FastDDS is also the default middleware for the next longterm release ROS2 Humble (May 2022) which means integration of ROS2 with 5G quality of service is becoming simple.</p>
+
+<p>Another interesting development was presented by <strong>Xilinx</strong>. Xilinx and AMD are working on providing prime hardware acceleration support for ROS2. The development of hardware acceleration interfaces is driven by the ROS2 hardware acceleration working group. Xilinx is developing the Kria Robotics Stack based on the open interfaces defined by the working group. Major features of the development are easy integration of embedded targets into the ROS2 build system and tools and an API for defining which parts of the ROS2 computation graph is run on CPU or e.g. FPGA. This development promises to make ROS2 a prime platform for deterministic and lightning fast computations that are needed for future robotics applications. Other companies such as NVIDIA are also targeting ROS2 for their hardware acceleration solutions as Katherine Scott (Open Robotics) stated in her presentation.</p>
+
+<p>Manufacturing systems are becoming a target for cyber criminals. As robots are deployed in all kind of systems that are essential for a countries economy they can even become a prime target in potential cyberwar scenarios. The ROS-Industrial community is aware of the arising problems and members <strong>Alias Robotics, Trend Micro</strong> as well as <strong>Canonical</strong> have presented research findings, solutions and services for ROS developers. Alias Robotics provides solutions such as the Robot Immune System (end point protection) as well as services for identifying potential risks in robotic products such as Threat Modeling. Alias Robotics and Trend Micro have together analyzed the DDS standard which is ROS2’s prime middleware and used in a wide range of applications such as medical, automotive and space. A number of security issues where discovered and reported. Canonical provides longterm support for end of life ROS distributions with security updates and the previously described deployment toolchain based on Ubuntu Core and snap which simplifies security updates during production.</p>
+
+<p>Advanced manipulation has always been a strong suit of the ROS ecosystem. This year’s conference made abundantly clear that this is also true for ROS2.  <strong>PickNik</strong> main driver behind moveit2 gave an overview of new features currently being developed, notably mobile manipulation and hybrid planning.  A mobile manipulation demonstration for moveit2 was developed together with HelloRobot (<a href="https://moveit.ros.org/events/rosworld-2021-workshop/">workshop</a>). A demonstrator for hybrid planning which integrates a global planner and local planner is being developed together with Fraunhofer IPA and targeting multi-layer welding. The goal is to perform scanning, welding and local planning at the same time to achieve higher process quality. Another talk focusing on robotic welding was contributed by  <strong>IRT Jules Vernes</strong> that presented how they leveraged ROS for building a lightweight welding robot for mobile welding applications from scratch. They were able to design hardware and controller within a year and create a working prototype.  <strong>SwRI</strong> has developed a ROS2 demonstrator for Scan &amp; Plan applications (workshop).</p>
+
+<p><strong>ARTC</strong> is developing software tools for collision avoidance in dynamic environments. Currently, obstacle avoidance during motion is not easily available for robot arms in ROS2. Therefore, ARTC has developed a dynamic safety joint trajectory controller, that integrates with motion planning solutions such as moveit2 and tesseract. The controller includes collision checking, speed scaling and re-planning. Average execution frequencies of more than 200 Hz are possible on commercial-off-the-shelf hardware.</p>
+
+<p>Software for modern robot systems is becoming more and more complex. Development and testing is becoming more and more difficult. It is time to work on handling the rising complexity of robotics development. <strong>Fraunhofer IPA</strong> presented their work on a model-driven development toolchain for ROS-based systems. The toolchain enables extracting models from available handwritten ROS components, defining ROS systems of existing and new components using a graphical tool and deploying the defined systems in different fashions i.e. ROS package or a complete docker container. The toolchain is currently in alpha state and heavily worked on.</p>
+
+<p><strong>SpaceROS and other news</strong></p>
+
+<ul>
+  <li>
+    <p>The space industry in the US is on the rise and with it is the interest in robotics solutions for space. ROS is already deployed in a number of non-critical space applications. <strong>Open Robotics and PickNik</strong> are plotting the next big step for ROS - <strong>SpaceROS</strong> - qualifying ROS and moveit for mission critical space applications.</p>
+  </li>
+  <li>
+    <p>TurtleBot4 is coming in 2022 with a base from IRobot</p>
+  </li>
+</ul>
+
+<p><strong>Summary</strong></p>
+
+<p>This year’s conference showed that ROS is being commercially deployed in industry and we are seeing that industrial robotics platform providers (UR, Drag &amp; Bot) are opening their platforms for ROS. Additionally, a number of supplier companies are providing key technologies for building safety systems around ROS-based robot applications. Furthermore, ROS2 has many configuration options for achieving real-time performance and industrial operating system developers such as Blackberry and Wind River are supporting ROS2. ROS2 is becoming a prime robotics platform for new technologies such as 5G and hardware acceleration thus enabling the robot applications of the future. ROS2’s security is moving in the focus of and being monitored by the security research community and a number of specialized security solution providers are available. With ROS2’s cutting edge motion planning capabilities this means building industrial robotics applications with ROS2 and deploying them to industry is becoming much easier.</p>
+
+
+
+    </div>
+</body>
+<footer class="footer">
+    <div class="container container-footer">
+      <div class="row">
+        <div class="col-xs-12 col-lg-4">
+          <a class="footer-logo" href="/rosindustrial-website/">
+            <img src="/rosindustrial-website/assets/ric_logo_white_155px.png" />
+          </a>
+          <a class="button" href="/rosindustrial-website/install">DOWNLOAD NOW</a>
+        </div>
+        <div class="col-xs-12 col-lg-8">
+          <div class="row">
+            <div class="col">
+              <h4>AMERICAS</h4>
+              <p>
+                Southwest Research Institute<br>
+                6220 Culebra Road<br>
+                San Antonio, TX 78238-5166<br>
+                USA
+              </p>
+            </div>
+            <div class="col">
+              <h4>EUROPE</h4>
+              <p>
+                Fraunhofer IPA <br>
+                Nobelstr. 12 <br>
+                70569 Stuttgart <br>
+                Germany
+              </p>
+            </div>
+            <div class="col">
+              <h4>ASIA</h4>
+              <p>
+                ARTC <br>
+                1 Fusionopolis Way, #20-10 <br>
+                Connexis North Tower<br>
+                Singapore 138632
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 footer-last-link">
+          <a href="#">Edit website on <span class="color-blue">Github</span></a>
+        </div>
+      </div>
+    </div>
+  </footer>

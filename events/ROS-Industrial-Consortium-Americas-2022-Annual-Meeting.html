@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      
+        ROS-Industrial Consortium Americas 2022 Annual Meeting | ROS-Industrial Consortium
+      
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+    
+    <link href="/rosindustrial-website/assets/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/rosindustrial-website/assets/css/main.css" />
+    <style>
+        .brand-logo{
+            width: 62%;
+        }
+    </style>
+    <script type="text/javascript" src="/rosindustrial-website/assets/jquery-3.6.0-dist/jquery.min.js"> </script>
+    <script type="text/javascript" src="/rosindustrial-website/assets/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" ></script>
+  </head>
+
+<body>
+  <div class="header">
+  <!--
+    <div class="github github-blog">
+      <a href="https://github.com/ros-industrial" target="_blank" class="github-corner" aria-label="View source on Github">
+        <svg width="71" height="71" viewBox="0 0 250 250" style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+          <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+          <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+          <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
+        </svg>
+      </a>
+    </div>
+  -->
+  <!--<div class="container container-navigation">-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+        aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <a class="navbar-brand" href="/rosindustrial-website/">
+          <img alt="Brand" class="brand-logo" src="/rosindustrial-website/assets/ric_logo_white_155px.png" />
+        </a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+              <li><a class="dropdown-item" href="/rosindustrial-website/about/vision">Vision</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/about/">History</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/about/people">People</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMember" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Membership
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMember">
+              <li><a class="dropdown-item" href="/rosindustrial-website/membership/current_members">Current Members</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/membership/americas">Americas</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/membership/europe">Europe</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/membership/asia_pacific">Asia & Pacific</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDevelopers" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Developers
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownDevelopers">
+              <li><a class="dropdown-item" href="https://github.com/ros-industrial-consortium"
+                  target="_blank">Consortium
+                  Github</a></li>
+              <li><a class="dropdown-item" href="https://github.com/ros-industrial" target="_blank">Project Github</a>
+              </li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/developers/ressources">Ressources</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/developers/packages">Packages</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/developers/meetings">Developer Meetings</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSupport" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Industry
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownSupport">
+              <li><a class="dropdown-item" href="/rosindustrial-website/industrial_support">Technical Support</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/industrial_support/training">Training</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/industrial_support/cooperation">Cooperation</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/rosindustrial-website/blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/rosindustrial-website/events/">Events</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+  <div class="container container-event page">
+    <div class="row post-headline">
+        <div class="col-xs-12 col-lg-4 col-sm-12">
+            <h3 style="margin-bottom: 10px; margin-bottom: 50px;">ROS-Industrial Consortium Americas 2022 Annual Meeting</h3>
+            <div class="blog-image-wrapper">
+                
+                <div class="blog-image-wrapper">
+                <img src="../assets/images/automate.png" alt="image"/>
+                </div>  
+            </div>
+            
+            <p style="margin-bottom: 50px;">
+                <p>Southwest Research Institute</p>
+                
+                <p><b>When:</b><br>
+                    From: June 09, 2022 18:30<br>
+                    To: June 10, 2022 17:00<br>
+                </p>
+                <p><b>Where:</b><br>
+                    The Hyatt Regency at McCormick Place 2233 South Martin Luther King DriveChicago, IL 60616
+                </p>
+                <a class="button" href="">Register</a>
+            </p>
+        </div>
+        <div class="col-xs-12 col-lg-8 col-sm-12" style="padding-left: 50px;">
+            <p>The ROS-Industrial Consortium Americas will host its annual meeting in conjunction with the Automate 2022 show in Detroit. The annual Members’ Meeting is a chance to understand the latest developments relative to ROS-Industrial, both within the Americas and around the world. There will be a chance to engage on the strategy for how ROS-I capability is shaped, in particular wiht atest developments around ROS2, and how we navigate the migration and leverage of ROS2.</p>
+
+<p>This is always a great opportunity to engage with other interested end-users, OEMs, solution providers and researchers on open source, interoperable, agile software capabilities. The collaborations that emerge through these interactions have led to significant accomplishments, of which you will learn about at this gathering. We look forward to seeing everyone in Chicago!
+<br />
+<br />
+<br />
+<strong>When:</strong> June 10, 2022 (Immediately following Automate 2022).</p>
+
+<p><strong>Location:</strong> Information coming soon!</p>
+
+<p><strong>Pre-meeting Dinner:</strong> A dinner will precede the June 10 meeting at 7:00 PM on June 9 at a local restaurant to be determined. Stay tuned for those details.</p>
+
+<p><strong>Host:</strong> Matt Robinson, RIC-Americas Program Manager
+<br />
+<br />
+<strong>Registration:</strong> Registration will be coming soon.
+<br />
+<br />
+<strong>Agenda:</strong></p>
+
+<p><em>Morning Program</em></p>
+
+<p>Regional Updated from the leads of the various Consortia support ROS-Indstrial. Updates from partner/educational institutions on developments and trends.
+<br />
+<br />
+<em>Lunch Keynote</em><br />
+A member organization will share a recent development as a keynote.
+<br />
+<br />
+<em>Afternoon Program</em><br />
+Afternoon program are member updates relative to contributions to furthering the capabilities or user stories of open source tools to solve problems.
+<br />
+<br />
+We look forward to collaborating with the membership and fostering a discussion on what is on the near horizon with regards to open-source advanced robotics development.</p>
+
+<p><strong>Members Exhibiting at Automate</strong></p>
+
+<p>A list of members exhibiting will be shared here.</p>
+
+        </div>
+    </div>
+    </div>
+</body>
+<footer class="footer">
+    <div class="container container-footer">
+      <div class="row">
+        <div class="col-xs-12 col-lg-4">
+          <a class="footer-logo" href="/rosindustrial-website/">
+            <img src="/rosindustrial-website/assets/ric_logo_white_155px.png" />
+          </a>
+          <a class="button" href="/rosindustrial-website/install">DOWNLOAD NOW</a>
+        </div>
+        <div class="col-xs-12 col-lg-8">
+          <div class="row">
+            <div class="col">
+              <h4>AMERICAS</h4>
+              <p>
+                Southwest Research Institute<br>
+                6220 Culebra Road<br>
+                San Antonio, TX 78238-5166<br>
+                USA
+              </p>
+            </div>
+            <div class="col">
+              <h4>EUROPE</h4>
+              <p>
+                Fraunhofer IPA <br>
+                Nobelstr. 12 <br>
+                70569 Stuttgart <br>
+                Germany
+              </p>
+            </div>
+            <div class="col">
+              <h4>ASIA</h4>
+              <p>
+                ARTC <br>
+                1 Fusionopolis Way, #20-10 <br>
+                Connexis North Tower<br>
+                Singapore 138632
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 footer-last-link">
+          <a href="#">Edit website on <span class="color-blue">Github</span></a>
+        </div>
+      </div>
+    </div>
+  </footer>

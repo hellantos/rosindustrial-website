@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      
+        Home | ROS-Industrial Consortium
+      
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+    
+    <link href="/rosindustrial-website/assets/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/rosindustrial-website/assets/css/main.css" />
+    <style>
+        .brand-logo{
+            width: 62%;
+        }
+    </style>
+    <script type="text/javascript" src="/rosindustrial-website/assets/jquery-3.6.0-dist/jquery.min.js"> </script>
+    <script type="text/javascript" src="/rosindustrial-website/assets/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" ></script>
+  </head>
+
+<body class="black">
+  <div class="header">
+  <!--
+    <div class="github github-blog">
+      <a href="https://github.com/ros-industrial" target="_blank" class="github-corner" aria-label="View source on Github">
+        <svg width="71" height="71" viewBox="0 0 250 250" style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+          <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+          <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+          <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
+        </svg>
+      </a>
+    </div>
+  -->
+  <!--<div class="container container-navigation">-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+        aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <a class="navbar-brand" href="/rosindustrial-website/">
+          <img alt="Brand" class="brand-logo" src="/rosindustrial-website/assets/ric_logo_white_155px.png" />
+        </a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+              <li><a class="dropdown-item" href="/rosindustrial-website/about/vision">Vision</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/about/">History</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/about/people">People</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMember" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Membership
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMember">
+              <li><a class="dropdown-item" href="/rosindustrial-website/membership/current_members">Current Members</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/membership/americas">Americas</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/membership/europe">Europe</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/membership/asia_pacific">Asia & Pacific</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDevelopers" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Developers
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownDevelopers">
+              <li><a class="dropdown-item" href="https://github.com/ros-industrial-consortium"
+                  target="_blank">Consortium
+                  Github</a></li>
+              <li><a class="dropdown-item" href="https://github.com/ros-industrial" target="_blank">Project Github</a>
+              </li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/developers/ressources">Ressources</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/developers/packages">Packages</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/developers/meetings">Developer Meetings</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSupport" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Industry
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownSupport">
+              <li><a class="dropdown-item" href="/rosindustrial-website/industrial_support">Technical Support</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/industrial_support/training">Training</a></li>
+              <li><a class="dropdown-item" href="/rosindustrial-website/industrial_support/cooperation">Cooperation</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/rosindustrial-website/blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/rosindustrial-website/events/">Events</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+  <div class="container-fluid" style="padding: 0 0 0 0">
+    <div class="homepage-header">
+    <div class="image-container">
+        <div class="row row align-items-end homepage-header-image" style="background:rgba(0,0,0,0.5); margin: 0 0 0 0">
+            <div class="col-sm-12">
+                <div class="homepage-header-text">
+                    <div class="row homepage-main-wrapper justify-content-end">
+                        <div class="col-xs-12 col-lg-8 col-sm-12">
+                            <div class="homepage-headline">
+                                <h1>The consortium for open-source robot automation</h1>
+                                <p class="main-text">
+                                    Controlling industrial robots independently of the vendor<br/>
+                                    and enabling new and advanced industrial robot capabilities
+                                </p>
+                                <div class="button-group">
+                                    <a class="button button-transparent" href="developers/packages">Packages</a>
+                                    <a class="button button-transparent" href="membership/">Get Involved</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="homepage">
+        <div class="row homepage-text g-4">
+            <div class="col-xs-12 col-lg-4 col-sm-12" style="text-align: left;">
+                <h2>Advanced Manufacturing Technology</h2>
+                <p>ROS-Industrial is an open-source project with the mission to extend the advanced capabilities
+                of ROS to manufacturing automation and robotics.</p>
+            </div>
+            <div class="col-lg-8">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IxTJ473MY3Y?controls=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="homepage">
+        <div class="" style="text-align: left;">
+            <h2>ROS-Industrial Software Stack</h2>
+            <p> Since the beginning of the ROS-Industrial intiative, we have been developing open source software 
+                that has been contributed to the ROS-Industrial Software Stack. Today, the software stack provides
+                drivers and tools for manufacturing specific robotics problems.</p>
+        </div>
+        <div class="row homepage-text g-4">
+            <div class="col-xs-12 col-lg-6 col-sm-12" style="text-align: center;">
+                <img class="ros-i-icons" src="assets/icons/Icon_driver.png" alt="Cooperation Icon">
+                <h3>Drivers</h3>
+                <p>Robots, Actuators and Sensors</p>
+                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="developers/packages#drivers">More Information</a>
+            </div>
+            <div class="col-xs-12 col-lg-6 col-sm-12" style="text-align: center;">
+                <img class="ros-i-icons" src="assets/icons/Icon_Motion.png" alt="Cooperation Icon">
+                <h3>Motion Tools</h3>
+                <p>Moveit, Tesseract, Descartes</p>
+                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="developers/packages#motion">More Information</a>
+            </div>
+            <div class="col-xs-12 col-lg-6 col-sm-12" style="text-align: center;">
+                <img class="ros-i-icons" src="assets/icons/Icon_apps.png" alt="Cooperation Icon">
+                <h3>Automation Tools</h3>
+                <p>Scan & Plan, Pick & Place</p>
+                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="developers/packages#automation">More Information</a>
+            </div>
+            <div class="col-xs-12 col-lg-6 col-sm-12" style="text-align: center;">
+                <img class="ros-i-icons" src="assets/icons/Icon_Quality.png" alt="Cooperation Icon">
+                <h3>Development Tools</h3>
+                <p>Continuous Integration, Model-driven Software Engineering</p>
+                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="developers/packages#development">More Information</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="homepage">
+        <div class="" style="text-align: left;">
+            <h2>ROS-Industrial Consortium Services</h2>
+            <p>The ROS-Industrial Consortium offers a wide range of services to its members in order to support
+            the uptake of ROS in manufacturing.</p>
+        </div>
+        <div class="row homepage-services g-4">
+
+            <div class="col-sm-12 col-lg-12">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12">
+                        <div class="row align-items-start justify-content-center">
+                            <div class="col-xs-12 col-lg-5 col-sm-12 m-4">
+                                <img class="ros-i-icons" src="assets/icons/Icon_Cooperation.png" alt="Cooperation Icon">
+                                <h3>Cooperation</h3>
+                                <p>Joint workshops, conferences and projects to improve robotics software for industrial automation.</p>
+                                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="industrial_support/cooperation">More Information</a>
+                            </div>
+                            <div class="col-xs-12 col-lg-5 col-sm-12 m-4">
+                                <img class="ros-i-icons" src="assets/icons/Icon_Support.png" alt="Support Icon">
+                                <h3>Technical Support</h3>
+                                <p>Access expertise from partner institutions to solve your robotics challenges in industrial automation.</p>
+                                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="industrial_support">More Information</a>
+                            </div>
+                            <div class="col-xs-12 col-lg-5 col-sm-12 m-4">
+                                <img class="ros-i-icons" src="assets/icons/Icon_Training.png" alt="Training Icon">
+                                <h3>Training</h3>
+                                <p>High quality training for professional ROS developers.</p>
+                                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="industrial_support/training">More Information</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="homepage d-none d-md-block">
+        <div style="text-align: center">
+        <h2>ROS-Industrial Consortium Members</h2>
+        <p style="padding-bottom: 30px;">The ROS-Industrial Initiative is supported by a consortium of organisations that actively use 
+        ROS and believe in the ROS-Industrial Vision. </p>
+        </div>
+        <div class="row align-items-center justify-content-center gy-2" style="background: white;">
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_3M.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_ABB.svg" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_Adlink.jpg" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_Aerobotix.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_AFManTech.jpeg" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_ARC.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_ARM Institute.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_arm.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_AWS.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_ARTC.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_Alias Robotics.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_Amsted Rail.jpg" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_Analog Devices.jpg" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_bmw.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_bastian solutions.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_boeing.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_bosch.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_CAT.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_canonical.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_cognicept.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_delta.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_FHA.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_fzi.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_iml.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_ipa.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_ipk.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_glidewell laboratories.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_INESC TEC.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_iav.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_infineon.jpg" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_Intel.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_joanneum.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_john deere.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_johnson johnson.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_keba.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_kyocera.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_lely.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_lincoln.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_magna.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_mathworks.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_microsoft.jpg" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_nist.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_NRC-CNRC.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_ntu.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_OSU.jpg" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_omron.jpg" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_open robotics.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_panasonic.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_pepperl fuchs.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_picknik.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_pilz.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_plusone.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_process champ.jpg" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_pushcorp.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_quadsat.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_rp.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_rensselaer.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_rethink.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_sp.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_saxion.jpg" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_schaeffler.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_sec.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_siaa.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_siemens.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_swri.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_spirit.jpg" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_steel founders.jpg" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_synapticon.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_t-systems.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_tud.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_tardec.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_tds.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_tormach.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_traclabs.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_trend micro.jpg" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_UTA.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_ur.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_volvo.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_wooside.png" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_yaskawa.gif" style="object-fit: contain; height: 100px;">
+            </div>
+            
+            <div class="col-1">
+                <img src="/rosindustrial-website/assets/member-logos/logo_yokogawa.jpg" style="object-fit: contain; height: 100px;">
+            </div>
+            
+        </div>
+        <div style="text-align: center;">
+        <a class="button button-transparent" style="margin-right: auto; margin-left: auto; margin-bottom: 0px; margin-top: 50px;" href="#">Become a Member</a>
+        </div>
+    </div>
+    <div class="homepage">
+        <div class="row homepage-event justify-content-center">
+            <div class="col-sm-4" style="text-align: left;">
+                <h2 class="h2">Upcoming Events</h2>
+                <p>The ROS-Industrial Consortium and its members are organising a number of events such as trainings, workshops and conferences.</p>
+                <a class="button button-transparent" style="margin-right: 0px; margin-bottom: 0px;" href="#">More Information</a>
+            </div>
+            <div class="col-sm-8">
+                <div class="row">
+                    
+                    
+                    
+                    
+                      
+                    
+                    
+                    
+                      
+                    
+                    
+                    
+                      
+                    
+                    
+                    
+                      
+                    
+                    
+                    
+                      
+                    
+                    
+                    
+                      
+                    
+                    
+                    
+                      
+                    
+                    
+                    
+                      
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<footer class="footer">
+    <div class="container container-footer">
+      <div class="row">
+        <div class="col-xs-12 col-lg-4">
+          <a class="footer-logo" href="/rosindustrial-website/">
+            <img src="/rosindustrial-website/assets/ric_logo_white_155px.png" />
+          </a>
+          <a class="button" href="/rosindustrial-website/install">DOWNLOAD NOW</a>
+        </div>
+        <div class="col-xs-12 col-lg-8">
+          <div class="row">
+            <div class="col">
+              <h4>AMERICAS</h4>
+              <p>
+                Southwest Research Institute<br>
+                6220 Culebra Road<br>
+                San Antonio, TX 78238-5166<br>
+                USA
+              </p>
+            </div>
+            <div class="col">
+              <h4>EUROPE</h4>
+              <p>
+                Fraunhofer IPA <br>
+                Nobelstr. 12 <br>
+                70569 Stuttgart <br>
+                Germany
+              </p>
+            </div>
+            <div class="col">
+              <h4>ASIA</h4>
+              <p>
+                ARTC <br>
+                1 Fusionopolis Way, #20-10 <br>
+                Connexis North Tower<br>
+                Singapore 138632
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 footer-last-link">
+          <a href="#">Edit website on <span class="color-blue">Github</span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
